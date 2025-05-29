@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f9f9f9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+h1 {
+    color: #2f2f2f;
+    font-size: 60px;
+    background-color: #ffffff;
+    width: 950px;
+    height: 150px;
+    padding: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+
+p {
+    color: #2f2f2f;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.titulo-tarjeta2 {
+    width: 500px;
+}
+
+.titulo-tarjeta1 {
+    margin-bottom: 0px;
+}
+
+#contenedorprincipal {
+    display: flex;
+    justify-content: center;
+    margin: 30px 500px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta1 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 1150px;
+    margin: 0;
+    padding: 40px;
+    width: 280px;
+}
+
+.tarjeta2 {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    height: 1000px;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.lineas img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.imagen-lk {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+}
+
+.imagen-lk:hover {
+    transform: scale(1.25);
+
+}
+
+.lineas {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
+    line-height: 2;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+footer {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 400px;
+    font-size: 30px;
+}
